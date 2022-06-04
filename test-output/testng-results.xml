@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-03T10:17:14Z" name="Suite" finished-at="2022-06-03T10:18:49Z" duration-ms="95098">
+    <groups>
+    </groups>
+    <test started-at="2022-06-03T10:17:14Z" name="Test" finished-at="2022-06-03T10:18:49Z" duration-ms="95098">
+      <class name="TestRunner.phpTravels">
+        <test-method is-config="true" signature="SuiteStarted()[pri:0, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:17:14Z" name="SuiteStarted" finished-at="2022-06-03T10:17:14Z" duration-ms="29" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="LunchBrowser(java.lang.String)[pri:0, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:17:15Z" name="LunchBrowser" finished-at="2022-06-03T10:17:23Z" duration-ms="7565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="signUpTest()[pri:1, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:17:23Z" name="signUpTest" finished-at="2022-06-03T10:18:17Z" duration-ms="54108" status="PASS">
+        </test-method>
+        <test-method signature="loginTest()[pri:2, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:18:17Z" name="loginTest" finished-at="2022-06-03T10:18:25Z" duration-ms="7656" status="PASS">
+        </test-method>
+        <test-method signature="pricingBtnDemo()[pri:3, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:18:25Z" name="pricingBtnDemo" finished-at="2022-06-03T10:18:49Z" duration-ms="24715" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="SuitedFinished()[pri:0, instance:TestRunner.phpTravels@45a4b042]" started-at="2022-06-03T10:18:51Z" name="SuitedFinished" finished-at="2022-06-03T10:18:52Z" duration-ms="1083" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
